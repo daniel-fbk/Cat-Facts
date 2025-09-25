@@ -11,7 +11,7 @@ export default function CookieClicker() {
   return (
     <>
       <h2 className={styles.counter}>{cookies} Kjeks</h2>
-      <img onClick={gainCookies} src="/cookie.png" alt="Image of a cookie" />
+      <img onClick={gainCookies} src="./cookie.png" alt="Image of a cookie" />
     </>
   );
 }
